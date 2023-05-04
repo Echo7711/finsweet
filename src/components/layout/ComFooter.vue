@@ -3,14 +3,14 @@
     <img src="@/assets/logo.png" />
     <NavMenu/>
     <div class="other-link">
-      <span>©2023 Finsweet | All rights reserved</span>
+      <span class="first-link">©2023 Finsweet | All rights reserved</span>
       <a-space>
         <facebook-outlined />
         <twitter-outlined />
         <instagram-outlined />
         <linkedin-outlined />
       </a-space>
-      <span>Contact Us →</span>
+      <span class="contact-link">Contact Us →</span>
     </div>
   </div>
 </template>

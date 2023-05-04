@@ -6,22 +6,10 @@
       <p>Edit this text to make it your own. To edit, 
         simply click directly on the text to start adding your own words.
          You can move the text by dragging and dropping the text anywhere on the page.</p>
-      <div class="feature">
-        <div>
-          <span><bulb-filled style="color: #FAB175;" />10+ People</span>
-          <p>We are Small Team</p>
-          <p>Through True Rich Attended does no end it his mother since favourable.</p>
-        </div>
-        <div>
-          <span><bulb-filled style="color: #FAB175;" />2014</span>
-          <p>We are From</p>
-          <p>Through True Rich Attended does no end it his mother since favourable.</p>
-        </div>
-        <div>
-          <span><bulb-filled style="color: #FAB175;" />200k</span>
-          <p>We Served</p>
-          <p>Through True Rich Attended does no end it his mother since favourable.</p>
-        </div>
+      <div class="feature" v-for="(item, index) in data" :key="index">
+          <span><bulb-filled style="color: #FAB175;" />{{ item.title }}</span>
+          <p>{{ item.txt }}</p>
+          <p>{{ item.text }}</p>
       </div>
       <MenuButton/>
     </div>
@@ -35,6 +23,13 @@
 <script lang="ts" setup>
 import MenuButton from '@/components/home/MenuButton.vue'
 import { BulbFilled } from '@ant-design/icons-vue'
+import { ref } from 'vue'
+
+const data = ref([
+  { title: '10+ People', txt: 'We are Small Team', text: 'Through True Rich Attended does no end it his mother since favourable.' },
+  { title: '2014', txt: 'We are From', text: 'Through True Rich Attended does no end it his mother since favourable.' },
+  {title: '200k', txt: 'We Served', text: 'Through True Rich Attended does no end it his mother since favourable.'}
+])
 </script>
 
 <style lang="less">
@@ -46,7 +41,6 @@ import { BulbFilled } from '@ant-design/icons-vue'
   height: 595px;
   padding: 0 2rem;
   display: flex;
-  border-bottom: 1px solid #fff;
 
   .more-left {
     width: 50%;
@@ -57,17 +51,14 @@ import { BulbFilled } from '@ant-design/icons-vue'
     }
 
     .feature {
-      display: flex;
-      flex-direction: row;
-
-      div {
-        padding: 10px 15px 10px 0;
-
+      float: left;
+      width: 10rem;
+      margin: 1rem 1rem 1rem 0;
         span {
           font-size: 1.2rem;
           color: #C2E1E7;
+          margin-bottom: 10px;
         }
-      }
     }
   }
 }
