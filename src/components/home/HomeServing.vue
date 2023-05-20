@@ -50,8 +50,8 @@ const typeData = ref([
       width: 50%;
       padding: 0 5rem;
       p {
-      color: #919092;
-    }
+        color: #919092;
+      }
     }
   }
   .serving-list {
