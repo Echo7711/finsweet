@@ -1,5 +1,5 @@
 {
-  "name": "robot-run-manage",
+  "name": "restaurant",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.16",
     "core-js": "^3.6.5",
+    "leaflet": "^1.9.4",
     "vue": "3.2.47",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",

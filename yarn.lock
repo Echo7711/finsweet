@@ -5936,6 +5936,11 @@
     "picocolors" "^1.0.0"
     "shell-quote" "^1.7.3"
 
+"leaflet@^1.9.4":
+  "integrity" "sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA=="
+  "resolved" "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz"
+  "version" "1.9.4"
+
 "less-loader@^5.0.0":
   "integrity" "sha512-bquCU89mO/yWLaUq0Clk7qCsKhsF/TZpJUzETRvJa9KSVEL9SO3ovCvdEHISBhrC81OwC8QSVX7E0bzElZj9cg=="
   "resolved" "https://registry.npmmirror.com/less-loader/-/less-loader-5.0.0.tgz"
