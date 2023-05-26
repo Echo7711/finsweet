@@ -14,8 +14,8 @@
       <MenuButton/>
     </div>
     <div class="more-right">
-      <img style="margin: 5rem 0 0 1rem;" src="@/assets/more_img1.png" />
-      <img style="margin: 0 0 5rem 6rem;" src="@/assets/more_img2.png" />
+      <img style="margin: 5rem 0 0 1rem;" src="@/assets/home/more_img1.png" />
+      <img style="margin: 0 0 5rem 6rem;" src="@/assets/home/more_img2.png" />
     </div>
   </div>
 </template>

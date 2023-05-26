@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <div class="home">
     <HomeHeader/>
     <HomeMore/>
     <HomeServing/>
     <HomeMenu/>
-    <Homequote/>
+    <HomeQuote/>
+    <HomeBlog/>
+    <HomeContact/>
   </div>
 </template>
 
@@ -13,5 +15,16 @@ import HomeHeader from '@/components/home/HomeHeader.vue'
 import HomeMore from '@/components/home/HomeMore.vue'
 import HomeServing from '@/components/home/HomeServing.vue'
 import HomeMenu from '@/components/home/HomeMenu.vue'
-import Homequote from '@/components/home/Homequote.vue'
+import HomeQuote from '@/components/home/HomeQuote.vue'
+import HomeBlog from '@/components/home/HomeBlog.vue'
+import HomeContact from '@/components/home/HomeContact.vue'
 </script>
+
+<style lang="less">
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+</style>

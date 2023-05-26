@@ -12,7 +12,7 @@
       <p>+9776462441</p>
     </div>
     <div class="header-right">
-      <img src="@/assets/header_img.png" />
+      <img src="@/assets/home/header_img.png" />
     </div>
   </div>
 </template>

@@ -11,10 +11,12 @@
           every him case in packages enquire we up ecstatic.. Through True Rich Attended does no end it his mother.</p>
       </div>
     </div>
-    <div class="menu-list" v-for="(item, index) in typeData" :key="index">
-      <img :src="item.url"/><br>
-      <span class="menu-name">{{ item.name }}</span>
-      <span class="menu-price">${{ item.price }}</span>
+    <div  class="menu-list">
+      <div class="menu-list-item" v-for="(item, index) in typeData" :key="index">
+        <img :src="item.url"/><br>
+        <span class="menu-name">{{ item.name }}</span>
+        <span class="menu-price">${{ item.price }}</span>
+      </div>
     </div>
   </div>
   <div class="button">
@@ -27,12 +29,12 @@ import { ref } from 'vue'
 import MenuButton from '@/components/home/MenuButton.vue'
 
 const typeData = ref([
-  { url: require('@/assets/menu_cofee.png'), name: 'Drp Cofee', price: '08.85' },
-  { url: require('@/assets/menu_cake.png'), name: 'Choco Cup Cake', price: '4.85' },
-  { url: require('@/assets/menu_burger.png'), name: 'Chicken Burger', price: '8.85' },
-  { url: require('@/assets/menu_fires.png'), name: 'French Fries', price: '7.85' },
-  { url: require('@/assets/menu_sandwitch.png'), name: 'Sandwitch', price: '3.97' },
-  { url: require('@/assets/menu_soup.png'), name: 'Chinese Soup', price: '8.85' }
+  { url: require('@/assets/home/menu_cofee.png'), name: 'Drp Cofee', price: '8.85' },
+  { url: require('@/assets/home/menu_cake.png'), name: 'Choco Cup Cake', price: '4.85' },
+  { url: require('@/assets/home/menu_burger.png'), name: 'Chicken Burger', price: '8.85' },
+  { url: require('@/assets/home/menu_fires.png'), name: 'French Fries', price: '7.85' },
+  { url: require('@/assets/home/menu_sandwitch.png'), name: 'Sandwitch', price: '3.97' },
+  { url: require('@/assets/home/menu_soup.png'), name: 'Chinese Soup', price: '8.85' }
 ])
 </script>
 
@@ -62,24 +64,26 @@ const typeData = ref([
     }
   }
   .menu-list {
-    float: left;
-    margin: 2rem 8rem 2rem 2rem;
-    width: 12rem;
-    font-size: 1.2rem;
-    img {
-      width: 20rem;
-      height: 12rem;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    .menu-list-item {
+      font-size: 1.2rem;
+      width: 405px;
+      height: 351px;
+      img {
+        width: 20rem;
+        height: 12rem;
+      }
     .menu-name {
       float: left;
-      width: 10rem;
+      width: 15rem;
       color: #D2D2D3;
-      // margin-left: 1rem;
     }
     .menu-price {
-      // float: right;
       width: 57px;
-      // margin-right: 1rem;
+    }
     }
   }
 }
