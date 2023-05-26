@@ -9,7 +9,6 @@
       <p>+123456789<br/>hey@yourdomain.com</p>
     </div>
     <div class="contact-right">
-      <!-- openstreetmap 此处瓦片不符合主题 -->
       <div id="map"></div>
     </div>
   </div>
