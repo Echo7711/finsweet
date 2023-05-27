@@ -1,5 +1,6 @@
 <template>
   <div class="footer">
+    <FooterContact/>
     <img src="@/assets/logo.png" />
     <NavMenu/>
     <div class="other-link">
@@ -17,5 +18,6 @@
 
 <script lang="ts" setup>
 import NavMenu from './NavMenu.vue';
+import FooterContact from '@/components/layout/FooterContact.vue'
 import { FacebookOutlined, TwitterOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons-vue';
 </script>
