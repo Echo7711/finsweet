@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about">
     <AboutMore/>
     <AboutImage/>
     <AboutHistory/>
@@ -15,4 +15,10 @@ import AboutText from '@/components/about/AboutText.vue';
 </script>
 
 <style lang="less">
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 </style>

@@ -18,7 +18,7 @@
 
 <style lang="less">
 .about-img {
-  width: 100%;
+  width: 80rem;
   height: 500px;
   margin: 2rem;
   background: url('../../assets/about/bg.png');
@@ -26,8 +26,8 @@
   .about-img-bg {
     width: 100%;
     height: 100%;
-    opacity: 0.5;
-    background-image: linear-gradient(to right, black, white);
+    opacity: 0.8;
+    background-image: linear-gradient(to right, black, transparent);
     div {
       width: 50%;
       height: 100%;
@@ -37,9 +37,11 @@
       span {
         font-size: 3rem;
         font-family: PlayfairDisplay-Bold;
+        color: #ffffff;
       }
       p {
         font-size: 0.8rem;
+        color: #9F9FA0;
       }
     }
   }

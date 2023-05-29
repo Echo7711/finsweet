@@ -23,4 +23,28 @@
 <script setup lang="ts">
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+.about-text {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-left {
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .text-right {
+    width: 50%;
+    padding: 8rem;
+    span {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 0.8rem;
+      color: #9F9FA0;
+    }
+  }
+}
+</style>

@@ -17,12 +17,12 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/home',
         name: 'Home',
-        component: () => import ('../views/Home.vue')
+        component: () => import('../views/Home.vue')
       },
       {
         path: '/menu',
         name: 'Menu',
-        component: () => import ('../views/Menu.vue')
+        component: () => import('../views/Menu.vue')
       },
       {
         path: '/about',
@@ -32,12 +32,17 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/story',
         name: 'Story',
-        component: () => import ('../views/OurStory.vue')
+        component: () => import('../views/OurStory.vue')
       },
       {
         path: '/blog',
         name: 'Blog',
-        component: () => import ('../views/Blog.vue')
+        component: () => import('../views/Blog.vue')
+      },
+      {
+        path: '/blogdetails',
+        name: '/blogdetails',
+        component: () => import('../views/BlogDetails.vue')
       },
       {
         path: '/contact',
