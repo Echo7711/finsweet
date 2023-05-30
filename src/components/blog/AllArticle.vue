@@ -3,9 +3,12 @@
     <div class="article-list-item" v-for="(item, index) in articleList" :key="index">
       <img :src="item.imgUrl" />
       <div>
-        <span></span>
+        <div>
+          <img src="@/assets/blog/person1.png"/>
+          <span>Andrew Jonson<br/>27th January 2021</span>
+        </div>
         <p>{{ item.txt }}</p>
-        <span></span>
+        <span>Read More →</span>
       </div>
     </div>
   </div>
