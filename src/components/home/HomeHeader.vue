@@ -25,7 +25,6 @@ import MenuButton from '@/components/home/MenuButton.vue'
 @themeColor: #FAB175;
 
 .header {
-  width: 80rem;
   margin-top: 2rem;
   height: 684px;
   display: flex;

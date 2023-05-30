@@ -26,17 +26,17 @@
 <style lang="less">
 .about-text {
   width: 80rem;
+  margin-top: 5rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   .text-left {
     width: 50%;
+    margin-top: 5rem;
     font-size: 2rem;
     text-align: center;
   }
   .text-right {
     width: 50%;
-    padding: 8rem;
+    padding:0 8rem;
     span {
       font-size: 1.2rem;
       margin-bottom: 2rem;

@@ -40,8 +40,8 @@ const listData = ref([
 
 <style lang="less">
 .about-history {
-  width: 80rem;
-  margin: 2rem;
+  width: 100%;
+  margin-top: 5rem;
   .about-history-title {
     font-size: 1.5rem;
     margin: 2rem 1rem;
@@ -53,7 +53,6 @@ const listData = ref([
     flex-flow: row wrap;
     .about-history-list-item {
       width: 240px;
-      // height: 222px;
       .time {
         font-size: 1.5rem;
       }

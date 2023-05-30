@@ -20,7 +20,7 @@
 .about-img {
   width: 80rem;
   height: 500px;
-  margin: 2rem;
+  margin-top: 5rem;
   background: url('../../assets/about/bg.png');
   background-size: 100% 100%;
   .about-img-bg {

@@ -27,7 +27,8 @@
 
 <style lang="less">
 .quote {
-  width: 80rem;
+  margin-top: 2rem;
+  padding: 0 2rem;
   .quote-left {
     float: left;
     width: 40%;

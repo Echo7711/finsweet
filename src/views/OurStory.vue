@@ -55,7 +55,6 @@
   justify-content: space-between;
   align-items: center;
   .story-left {
-    // width: 50%;
     padding: 3rem;
     span {
       font-size: 2rem;
@@ -67,7 +66,7 @@
   }
   .story-right {
     width: 50%;
-    padding: 3rem;
+    padding: 0 8rem;
     span {
       font-size: 1.5rem;
     }

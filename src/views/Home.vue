@@ -20,6 +20,7 @@ import HomeBlog from '@/components/home/HomeBlog.vue'
 
 <style lang="less">
 .home {
+  width: 80rem;
   display: flex;
   justify-content: center;
   flex-direction: column;

@@ -36,12 +36,10 @@ const data = ref([
 @themeColor: #FAB175;
 
 .more {
-  width: 80rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: 595px;
   padding: 0 2rem;
   display: flex;
-
   .more-left {
     width: 50%;
     padding-right: 2rem;

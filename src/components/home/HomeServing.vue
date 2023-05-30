@@ -34,9 +34,8 @@ const typeData = ref([
 
 <style lang="less">
 .serving {
-  width: 80rem;
   height: 700px;
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: 0 2rem;
   .serving-title {
     margin-top: 1rem;

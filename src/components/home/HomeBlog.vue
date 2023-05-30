@@ -40,8 +40,8 @@ const blogData = ref([
 
 <style lang="less">
 .blog {
-  width: 80rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  padding: 0 2rem;
   .blog-title {
     font-size: 2rem;
   }
@@ -49,11 +49,14 @@ const blogData = ref([
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 5rem;
     .blog-list-item {
-      width: 405px;
-      height: 526px;
-      padding-right: 2rem;
+      width: 400px;
+      padding-right: 5rem;
       padding-top: 2rem;
+      img {
+        width: 90%;
+      }
     }
   }
 }

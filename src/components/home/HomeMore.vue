@@ -36,7 +36,6 @@ const data = ref([
 @themeColor: #FAB175;
 
 .more {
-  width: 80rem;
   margin-top: 5rem;
   height: 595px;
   padding: 0 2rem;

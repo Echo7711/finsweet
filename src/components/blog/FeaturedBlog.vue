@@ -5,8 +5,8 @@
     </div>
     <div class="blog-list">
       <div class="blog-list-item" v-for="(item, index) in firstList" :key="index">
-        <img :src="item.imgUrl"/>
-        <div>
+        <div><img :src="item.imgUrl"/></div>
+        <div class="item-txt">
           <span>{{ item.title }}</span>
           <p>{{ item.txt }}</p>
         </div>
@@ -39,7 +39,28 @@ const firstList = ref([
 <style lang="less">
 .feature {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 496px;
+  .blog-img {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .blog-list {
+    width: 50%;
+    padding: 0 5rem;
+    .blog-list-item {
+      display: flex;
+      align-items: center;
+      margin: 3rem 0;
+      p {
+        font-size: 0.8rem;
+        color: #9F9FA0;
+      }
+      img {
+        width: 80%;
+      }
+    }
+  }
 }
 </style>

@@ -16,6 +16,7 @@ import AboutText from '@/components/about/AboutText.vue';
 
 <style lang="less">
 .about {
+  width: 80rem;
   display: flex;
   justify-content: center;
   flex-direction: column;

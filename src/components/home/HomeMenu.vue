@@ -18,10 +18,11 @@
         <span class="menu-price">${{ item.price }}</span>
       </div>
     </div>
+    <!-- <div class="button"> -->
+    <!-- <MenuButton/> -->
+    <!-- </div> -->
   </div>
-  <div class="button">
-    <MenuButton/>
-  </div>
+  
 </template>
 
 <script setup lang="ts">
@@ -40,9 +41,8 @@ const typeData = ref([
 
 <style lang="less">
 .menu {
-  width: 80rem;
   height: 800px;
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: 0 2rem;
   .menu-title {
     margin-top: 1rem;
@@ -86,8 +86,9 @@ const typeData = ref([
     }
     }
   }
-}
-.button {
+  .button {
   text-align: center;
 }
+}
+
 </style>

@@ -14,12 +14,16 @@ import AllArticle from '@/components/blog/AllArticle.vue';
 
 <style lang="less">
 .blog {
+  width: 80rem;
+  // margin-top: 2rem;
+  padding: 0 2rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   h2 {
     color: #ffffff;
+    margin: 2rem;
   }
 }
 

@@ -45,6 +45,7 @@ onMounted(() => {
 <style lang="less">
 .contact {
   width: 80rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
